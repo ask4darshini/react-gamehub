@@ -8,7 +8,8 @@ const GameGrid = () => {
     <>
     {error && <Text>{error}</Text>}
    <ul>
-    {games.map(game => <li key={game.id}>{game.name}</li>)}
+    {games.map( (game) => {
+    return <li key={game.id}> {game.name} </li> })}
    </ul>
    </>
   );
