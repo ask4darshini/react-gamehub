@@ -5,7 +5,7 @@ interface Props{
 }
 const GameScore = ({score}: Props) => {
   return (
-   <Badge fontSize='14px'>{score}</Badge>
+   <Badge fontSize='14px' paddingX={2} borderRadius='4px'>{score}</Badge>
   )
 }
 
